@@ -12,4 +12,4 @@ Sym-link everything into the appropriate location:
 - ZSH Custom Theme
   - `ln -s ~/[src-path]/gargrave.zsh-theme ~/.oh-my-zsh/custom/themes/gargrave.zsh-theme`
 - ZSH Custom Plugins
-  - `ln -s ~/[src-path]/gargrave-aliases.plugin.zsh ~/.oh-my-zsh/custom/plugins/gargrave-aliases.plugin.zsh`
+  - `ln -s ~/[src-path]/gargrave-aliases.plugin.zsh ~/.oh-my-zsh/custom/plugins/gargrave-aliases/gargrave-aliases.plugin.zsh`
