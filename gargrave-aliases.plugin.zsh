@@ -10,8 +10,10 @@ alias gl="git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%
 alias glo='git log --oneline'
 alias gpl='git pull'
 alias gst='git status'
+alias gci='git commit -m'
 alias gco='git checkout'
 alias gcob='git checkout -b'
+alias gundo='git reset --soft HEAD~1'
 
 # Docker shortcuts
 alias dup='docker-compose up -d'
