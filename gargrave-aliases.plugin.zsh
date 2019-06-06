@@ -9,7 +9,7 @@ alias gbr='git branch'
 alias gci='git commit -m'
 alias gco='git checkout'
 alias gcob='git checkout -b'
-alias gl="git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --branches"
+alias gl="git log --color --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 alias glo='git log --oneline'
 alias gpl='git pull'
 alias gri='git rebase -i'
