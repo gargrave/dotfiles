@@ -16,6 +16,11 @@ alias gri='git rebase -i'
 alias gst='git status'
 alias gundo='git reset --soft HEAD~1'
 
+# Misc. aliases
+alias yst='yarn start'
+alias yt='yarn test'
+alias yb='yarn build'
+
 # Docker shortcuts
 alias ddown='docker-compose down'
 alias dup='docker-compose up -d'
