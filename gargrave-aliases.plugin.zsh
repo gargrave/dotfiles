@@ -17,10 +17,11 @@ alias gst='git status'
 alias gundo='git reset --soft HEAD~1'
 
 # Misc. aliases
-alias yst='yarn start'
+alias ys='yarn start'
 alias yt='yarn test'
 alias yb='yarn build'
 alias yui='yarn upgrade-interactive'
+alias ysb='yarn storybook'
 
 # Docker shortcuts
 alias ddown='docker-compose down'
