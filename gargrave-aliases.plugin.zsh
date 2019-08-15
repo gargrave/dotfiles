@@ -21,7 +21,7 @@ alias ys='yarn start'
 alias yt='yarn test'
 alias yb='yarn build'
 alias yui='yarn upgrade-interactive'
-alias ysb='yarn storybook'
+alias ysg='yarn styleguide'
 
 # Docker shortcuts
 alias ddown='docker-compose down'
