@@ -13,6 +13,7 @@ alias gl="git log --color --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %
 alias glo='git log --oneline'
 alias gpl='git pull'
 alias gri='git rebase -i'
+alias gss='git stash save'
 alias gst='git status'
 alias gundo='git reset --soft HEAD~1'
 
@@ -24,5 +25,6 @@ alias yui='yarn upgrade-interactive'
 alias ysg='yarn styleguide'
 
 # Docker shortcuts
-alias ddown='docker-compose down'
-alias dup='docker-compose up -d'
+alias dc='docker-compose'
+alias ddown='dc down'
+alias dup='dc up -d'
