@@ -4,6 +4,7 @@ ZSH_THEME="gargrave"
 
 plugins=(
   gargrave-aliases
+  gargrave-aliases-ignored
   history-substring-search
   zsh-autosuggestions
   zsh-completions
