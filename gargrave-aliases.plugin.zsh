@@ -3,6 +3,7 @@ alias cl='clear'
 alias kk='cd && clear'
 alias ll='ls -la'
 alias llg='ls -la | grep'
+alias cll='cl && ll'
 
 # Git aliases
 alias gbr='git branch'
