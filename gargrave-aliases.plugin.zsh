@@ -4,6 +4,7 @@ alias kk='cd && clear'
 alias ll='ls -la'
 alias llg='ls -la | grep'
 alias cll='cl && ll'
+alias cdp='cd ~/dev/projects'
 
 # Git aliases
 alias gbr='git branch'
@@ -22,7 +23,7 @@ alias gundo='git reset --soft HEAD~1'
 alias ys='yarn start'
 alias yt='yarn test'
 alias yb='yarn build'
-alias yui='yarn upgrade-interactive'
+alias yui='yarn upgrade-interactive --latest'
 alias ysg='yarn styleguide'
 
 # Docker shortcuts
