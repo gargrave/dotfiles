@@ -1,5 +1,6 @@
 # some helpful shell aliases
 alias vim='nvim'
+alias wiki='vim ~/vimwiki/README.md'
 alias cl='clear'
 alias kk='cd && clear'
 alias ll='ls -la'
