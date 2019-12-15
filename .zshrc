@@ -9,6 +9,7 @@ plugins=(
   zsh-autosuggestions
   zsh-completions
   zsh-syntax-highlighting
+  zsh-nvm
 )
 
 autoload -U compinit && compinit
