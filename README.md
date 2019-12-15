@@ -18,6 +18,8 @@ Sym-link everything into the appropriate location:
 - ZSH Main Config
   - `ln -s ~/[dotfiles-path]/.zshrc ~/.zshrc`
   - `source ~/.zshrc`
+- ZSH External Plugins
+  - [zsh-nvm](https://github.com/lukechilds/zsh-nvm#as-an-oh-my-zsh-custom-plugin)
 
 ## Vim Setup
 

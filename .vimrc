@@ -2,8 +2,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'leafgarland/typescript-vim'
 Plug 'ianks/vim-tsx'
 Plug 'dracula/vim', { 'as': 'dracula' }
-Plug 'arcticicestudio/nord-vim'
-Plug 'morhetz/gruvbox'
+Plug 'airblade/vim-gitgutter'
 Plug 'vimwiki/vimwiki'
 Plug 'prettier/vim-prettier', {
   \ 'do': 'yarn install',
@@ -12,10 +11,6 @@ call plug#end()
 
 """ Theme Settings
 colorscheme dracula
-"colorscheme nord
-"colorscheme gruvbox
-"set background=dark
-"let g:gruvbox_contrast_dark='1'
 
 """ Misc. editor settings
 set relativenumber
