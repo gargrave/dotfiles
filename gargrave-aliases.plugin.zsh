@@ -1,12 +1,17 @@
 # some helpful shell aliases
-alias vim='nvim'
-alias wiki='vim ~/vimwiki/README.md'
 alias cl='clear'
 alias kk='cd && clear'
 alias ll='ls -la'
 alias llg='ls -la | grep'
 alias cll='cl && ll'
 alias cdp='cd ~/dev/projects'
+alias cdwiki='cd ~/vimwiki'
+alias cddot='cd ~/.dotfiles'
+
+# Vim aliases
+alias vim='nvim'
+alias vimrc='vim ~/.vimrc'
+alias wiki='vim ~/vimwiki/README.md'
 
 # Git aliases
 alias gbr='git branch'
