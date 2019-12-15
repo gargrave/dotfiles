@@ -1,4 +1,5 @@
 # some helpful shell aliases
+alias vim='nvim'
 alias cl='clear'
 alias kk='cd && clear'
 alias ll='ls -la'
