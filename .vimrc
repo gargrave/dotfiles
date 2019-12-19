@@ -12,12 +12,22 @@ call plug#end()
 """ Theme Settings
 colorscheme dracula
 
+""""""""""""""""""""""""""""""""""""
 """ Misc. editor settings
+""""""""""""""""""""""""""""""""""""
 set relativenumber
 set shiftwidth=2
+set tabstop=2
 set expandtab
-"set list
+set list
 set listchars=tab:>-,trail:~,space:.
+"set spell spelllang=en_us
+
+" Markdown-specific settings
+autocmd Filetype markdown setlocal textwidth=80
+autocmd Filetype markdown setlocal shiftwidth=0
+autocmd Filetype markdown setlocal noexpandtab
+autocmd Filetype markdown setlocal listchars=tab:>-,trail:~
 
 """"""""""""""""""""""""""""""""""""
 " Vimwiki settings
@@ -44,4 +54,5 @@ let g:vimwiki_h1_headers=1
 
 """ Prettier settings
 let g:prettier#config#prose_wrap = 'always'
+"let g:prettier#config#use_tabs = 'true'
 
