@@ -4,9 +4,6 @@ Plug 'ianks/vim-tsx'
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'airblade/vim-gitgutter'
 Plug 'vimwiki/vimwiki'
-Plug 'prettier/vim-prettier', {
-  \ 'do': 'yarn install',
-  \ 'for': ['markdown'] }
 call plug#end()
 
 """ Theme Settings
@@ -51,8 +48,4 @@ let wiki.ext = '.md'
 let wiki.index = 'README'
 let g:vimwiki_list = [wiki]
 let g:vimwiki_h1_headers=1
-
-""" Prettier settings
-let g:prettier#config#prose_wrap = 'always'
-"let g:prettier#config#use_tabs = 'true'
 
