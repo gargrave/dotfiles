@@ -23,20 +23,23 @@ Sym-link everything into the appropriate location:
   - `source ~/.zshrc`
 - ZSH External Plugins
   - Clone repos into `~/.oh-my-zsh/custom/plugins`
-  - history-substring-search
-  - zsh-autosuggestions
-  - zsh-completions
-  - zsh-syntax-highlighting
-  - [zsh-nvm](https://github.com/lukechilds/zsh-nvm#as-an-oh-my-zsh-custom-plugin)
+    - [history-substring-search](https://github.com/zsh-users/zsh-history-substring-search)
+    - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+    - [zsh-completions](https://github.com/zsh-users/zsh-completions)
+    - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+    - [zsh-nvm](https://github.com/lukechilds/zsh-nvm#as-an-oh-my-zsh-custom-plugin)
 
 ## Vim Setup
 
-- Install [Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
-- Install [vim-plug](https://github.com/junegunn/vim-plug)
+- Install [Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim#homebrew-macos--linuxbrew-linux)
+- Install [vim-plug](https://github.com/junegunn/vim-plug#neovim)
 - Link Vim config: `ln -s ~/[dotfiles-path]/.vimrc ~/.vimrc`
-- Link Vim config to Neovim: `ln -s ~/[dotfiles-path]/.vimrc ~/.config/nvim/init.vim`
+- Link Vim config to Neovim:
+  - `mkdir -p ~/.config/nvim`
+  - `ln -s ~/[dotfiles-path]/.vimrc ~/.config/nvim/init.vim`
 - Run `:PlugInstall`
 
 ## Extra Stuff
 
 - [Dracula iTerm Theme](https://github.com/dracula/iterm)
+- [Dracula Terminal Theme](https://draculatheme.com/terminal/)
