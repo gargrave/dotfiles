@@ -4,7 +4,7 @@ ZSH_THEME="gargrave"
 
 plugins=(
   gargrave-aliases
-  # gargrave-aliases-ignored
+  gargrave-aliases-ignored
   history-substring-search
   zsh-autosuggestions
   zsh-completions
@@ -15,3 +15,4 @@ plugins=(
 autoload -U compinit && compinit
 source $ZSH/oh-my-zsh.sh
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=5'
+
