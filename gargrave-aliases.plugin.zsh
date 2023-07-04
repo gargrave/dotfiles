@@ -28,6 +28,7 @@ alias gundo='git reset --soft HEAD~1'
 
 # Yarn aliases
 alias ys='yarn start'
+alias yd='yarn dev'
 alias yt='yarn test'
 alias yl='yarn lint'
 alias yb='yarn build'
@@ -37,6 +38,7 @@ alias ysg='yarn styleguide'
 # NPM aliases
 alias ni='npm i'
 alias nr='npm run'
+alias nrd='npm run dev'
 alias ns='nr start'
 alias nb='nr build'
 alias nw='nr watch'
